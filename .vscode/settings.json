@@ -1,0 +1,17 @@
+{
+    "idf.currentSetup": "/Users/mirko/.espressif/v6.1/esp-idf",
+    "idf.openOcdConfigs": [
+      "board/esp32c6-builtin.cfg"
+    ],
+    "idf.port": "/dev/tty.usbmodem11401",
+    "idf.customExtraVars": {
+      "IDF_TARGET": "esp32c6"
+    },
+    "clangd.path": "/Users/mirko/.espressif/tools/esp-clangd/esp-21.1.3_20260408/esp-clangd/bin/clangd",
+    "clangd.arguments": [
+      "--background-index",
+      "--query-driver=**",
+      "--compile-commands-dir=/Users/mirko/Documents/code/ESP-IDF/robot_arm/RS485_basic/build"
+    ],
+    "idf.flashType": "JTAG"
+}
